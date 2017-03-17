@@ -9,6 +9,11 @@ Installation
 
     python setup.py build
     sudo python setup.py install
+  
+    **or*
+    
+    bash install.bash
+  
 
 Usage
 ==
