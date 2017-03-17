@@ -1,8 +1,8 @@
 #include <ros/ros.h>
 
 int main(int argc, char **argv) {
-    // Initialize node and publisher.
-    ros::init(argc, argv, "#PROJECT#_node");
+    // Initialize the node, publishers and subscribers.
+    ros::init(argc, argv, "#PROJECT_NAME#_node");
     ros::NodeHandle nh("~");
     // Create publishers and subscribers
     // ros::Publisher publisher = nh.advertise<geometry_msgs::PoseStamped>("pose_publisher", 1, true);
@@ -13,10 +13,11 @@ int main(int argc, char **argv) {
         // Add data to grid map.
         ros::Time time = ros::Time::now();
 
-	// do something 
+	// Do something 
 	// ....
+	// Fill the pose msg
 	        
-        // Publish grid map.
+        // Publish a pose.
         // publisher.publish(pose_msg);
         // ROS_INFO_THROTTLE(10, "ROS pose (timestamp %f) published.", pose_msg.header.stamp.toSec());
 
