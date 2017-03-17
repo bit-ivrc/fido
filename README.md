@@ -1,7 +1,7 @@
 FIDO
 ==
 
-Fido is a minimalistic, IDE agnostic, C/C++ project generator supporting various toolchains 
+Fido is a minimalistic, IDE agnostic, C/C++ project generator supporting various toolchains
 and build systems.
 
 # Installation
@@ -11,7 +11,7 @@ and build systems.
     sudo python setup.py install
 ```
 **or**
-``` 
+```
     bash install.bash
 ```
 
@@ -39,7 +39,7 @@ Usage
                   cmake-cpp : Create a C++ project based on CMake.
                      make-c : Create a C project based on Makefile.
                    make-cpp : Create a C++ project based on Makefile.
-		     rospkg : Create a simple ros package.
+		                 rospkg : Create a simple ros package.
 
 
 Example
@@ -63,13 +63,13 @@ Example
 	$ ./sample-project
 
 	Hello World from sample-project !
-ROS Example 
+ROS Example
 ==
        $ fido create rospkg simple_node
-       
+
        Creating project 'simple_node' with template 'rospkg' ...
-       
-The `rospkg` template follows the ros package folder structure convention. It uses the sweet [Package Manifest Format Two](http://www.ros.org/reps/rep-0140.html) template for package.xml file, which avoids the ros package dependecies declaration redundancy. 
+
+The `rospkg` template follows the ros package folder structure convention. It uses the sweet [Package Manifest Format Two](http://www.ros.org/reps/rep-0140.html) template for package.xml file, which avoids the ros package dependecies declaration redundancy.
 ```    	
 	simple_node
 	├── CMakeLists.txt
