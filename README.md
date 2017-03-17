@@ -5,15 +5,15 @@ Fido is a minimalistic, IDE agnostic, C/C++ project generator supporting various
 and build systems.
 
 Installation
-==
+```
 
     python setup.py build
     sudo python setup.py install
-  
+```
     **or**
-    
+``` 
     bash install.bash
-  
+```
 
 Usage
 ==
