@@ -4,7 +4,7 @@ FIDO
 Fido is a minimalistic, IDE agnostic, C/C++ project generator supporting various toolchains 
 and build systems.
 
-## Installation
+# Installation
 ```
 
     python setup.py build
