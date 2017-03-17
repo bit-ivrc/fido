@@ -34,7 +34,7 @@ Usage
                   cmake-cpp : Create a C++ project based on CMake.
                      make-c : Create a C project based on Makefile.
                    make-cpp : Create a C++ project based on Makefile.
-		     rospkg : Create a simple ros package.
+			rospkg : Create a simple ros package.
 
 
 Example
