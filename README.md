@@ -10,7 +10,7 @@ Installation
     python setup.py build
     sudo python setup.py install
 ```
-    **or**
+**or**
 ``` 
     bash install.bash
 ```
