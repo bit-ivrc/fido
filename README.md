@@ -65,7 +65,7 @@ ROS Example
        Creating project 'simple_node' with template 'rospkg' ...
        
 The `rospkg` template follows the ros package folder structure convention and uses the sweet `format 2` template for package.xml file.  
-==     	
+```    	
 	simple_node
 	├── CMakeLists.txt
 	├── include
@@ -73,6 +73,7 @@ The `rospkg` template follows the ros package folder structure convention and us
 	├── package.xml
 	└── src
 	    └── main.cpp
+```
 
 Video Example
 ==
