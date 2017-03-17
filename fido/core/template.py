@@ -66,6 +66,11 @@ class BaseTemplate(object):
 
         self.vars["#PROJECT_NAME#"] = os.path.basename(path)
 
+	if self.get_name() == "rospkg":
+	    include_dir = os.path.join(path, 'include')
+	    project_dir = os.path.join(include_dir, self.vars["#PROJECT_NAME#"])
+  	    os.makedirs(project_dir)
+
         for root, dirnames, filenames in os.walk( path ):
             for fname in filenames:
                 filename = os.path.join( root, fname )
