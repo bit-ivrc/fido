@@ -64,7 +64,7 @@ ROS Example
        
        Creating project 'simple_node' with template 'rospkg' ...
        
-The `rospkg` template follows the ros package folder structure convention. It uses the sweet [Package Manifest Format Two](http://www.ros.org/reps/rep-0140.html) template for package.xml file, which avoid the ros package dependecies declaration redundancy. 
+The `rospkg` template follows the ros package folder structure convention. It uses the sweet [Package Manifest Format Two](http://www.ros.org/reps/rep-0140.html) template for package.xml file, which avoids the ros package dependecies declaration redundancy. 
 ```    	
 	simple_node
 	├── CMakeLists.txt
