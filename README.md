@@ -34,6 +34,8 @@ Usage
                   cmake-cpp : Create a C++ project based on CMake.
                      make-c : Create a C project based on Makefile.
                    make-cpp : Create a C++ project based on Makefile.
+		     rospkg : Create a simple ros package.
+
 
 Example
 ==
@@ -56,6 +58,13 @@ Example
 	$ ./sample-project
 
 	Hello World from sample-project !
+ROS Example 
+==
+       $ fido create rospkg simple_node
+       
+       Creating project 'simple_node' with template 'rospkg' ...
+       
+The `rospkg` template follows the ros package folder structure convention and uses the sweet `format 2` template for package.xml file.  
 
 Video Example
 ==
