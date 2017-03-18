@@ -70,6 +70,9 @@ class BaseTemplate(object):
 	    include_dir = os.path.join(path, 'include')
 	    project_dir = os.path.join(include_dir, self.vars["#PROJECT_NAME#"])
   	    os.makedirs(project_dir)
+	    # add a place holder for the header file
+            with open(os.path.join(project_dir, 'main.hpp'), 'w+t') as fh:
+		fh.write( "// header file. ")
 
         for root, dirnames, filenames in os.walk( path ):
             for fname in filenames:
