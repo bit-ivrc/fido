@@ -75,9 +75,11 @@ The `rospkg` template follows the ros package folder structure convention. It us
   ├── CMakeLists.txt
   ├── include
   │   └── simple_node
+  │       └── main.hpp
   ├── package.xml
   └── src
       └── main.cpp
+
 ```
 
 Video Example
